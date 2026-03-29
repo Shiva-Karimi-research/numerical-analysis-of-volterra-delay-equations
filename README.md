@@ -160,3 +160,14 @@ This work is closely related to:
 - Computational methods for data-driven modeling
 
 This project reflects my transition from mathematical modeling to computational and algorithmic problem-solving, aligning with modern AI methodologies.
+
+---
+
+📁 Code
+
+The Mathematica implementation of the proposed numerical methods is available in the following files:
+
+- [sin solution notebook](volterra_delay_equation_sin_solution.nb)
+- [cosh solution notebook](volterra_delay_equation_cosh_solution.nb)
+
+These files contain the full implementation of the numerical schemes, including the discretization process, handling of delay terms, and error analysis for the test problems.
