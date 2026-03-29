@@ -51,13 +51,14 @@ The table reports the numerical error for different values of the delay paramete
 
 Case 1: q = 0.5
 
-m| N| Error
-2| 10| 2.73e-4
-2| 15| 2.11e-4
-2| 25| 1.17e-4
-2| 50| 6.66e-5
-2| 90| 8.69e-6
-2| 140| 3.58e-6
+| m | N  | Error        |
+|---|----|-------------|
+| 2 | 10 | 2.73e-4     |
+| 2 | 15 | 2.11e-4     |
+| 2 | 25 | 1.17e-4     |
+| 2 | 50 | 6.66e-5     |
+| 2 | 90 | 8.69e-6     |
+| 2 | 140| 3.58e-6     |
 
 ---
 
