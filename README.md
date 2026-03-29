@@ -38,7 +38,7 @@ Example 1:
 - Exact solution: y(t) = \sin(t)
 - Tested for different delay parameters (q = 0.5, 0.33, 0.25)
 - Observed decreasing error as the number of grid points increased
-- Maximum error reached approximately 10^{-4}
+- Errors on the order of 10⁻⁵
 
 Example 2:
 
@@ -62,6 +62,7 @@ This work is closely related to:
 - Stability and convergence analysis in iterative algorithms
 - Computational methods for data-driven modeling
 
-🔗 Author
+This project reflects my transition from mathematical modeling to computational and algorithmic problem-solving, which aligns with modern AI methodologies.
 
+🔗 Author
 Shiva Karimi
