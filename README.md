@@ -167,7 +167,7 @@ This project reflects my transition from mathematical modeling to computational 
 
 The Mathematica implementation of the proposed numerical methods is available in the following files:
 
-- [sin solution notebook](volterra_delay_equation_sin_solution.nb)
-- [cosh solution notebook](volterra_delay_equation_cosh_solution.nb)
+- [Volterra Delay Solver – sin case](volterra_delay_equation_sin_solution.nb)
+- [Volterra Delay Solver – cosh case](volterra_delay_equation_cosh_solution.nb)
 
-These files contain the full implementation of the numerical schemes, including the discretization process, handling of delay terms, and error analysis for the test problems.
+These implementations are designed for reproducibility of the numerical experiments and can be extended to more general classes of delay differential equations.
