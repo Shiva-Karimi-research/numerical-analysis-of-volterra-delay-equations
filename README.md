@@ -64,25 +64,27 @@ Case 1: q = 0.5
 
 Case 2: q = 1/3
 
-m| N| Error
-2| 10| 6.77e-2
-2| 15| 6.97e-2
-2| 35| 5.84e-2
-2| 70| 5.54e-2
-2| 140| 4.99e-2
-2| 200| 4.70e-2
+| m | N   | Error   |
+|---|-----|---------|
+| 2 | 10  | 6.77e-2 |
+| 2 | 15  | 6.97e-2 |
+| 2 | 35  | 5.84e-2 |
+| 2 | 70  | 5.54e-2 |
+| 2 | 140 | 4.99e-2 |
+| 2 | 200 | 4.70e-2 |
 
 ---
 
 Case 3: q = 1/4
 
-m| N| Error
-2| 20| 8.44e-2
-2| 60| 7.24e-2
-2| 80| 7.43e-2
-2| 250| 7.06e-2
-2| 360| 7.15e-2
-2| 450| 7.16e-2
+| m | N   | Error   |
+|---|-----|---------|
+| 2 | 20  | 8.44e-2 |
+| 2 | 60  | 7.24e-2 |
+| 2 | 80  | 7.43e-2 |
+| 2 | 250 | 7.06e-2 |
+| 2 | 360 | 7.15e-2 |
+| 2 | 450 | 7.16e-2 |
 
 ---
 
@@ -97,42 +99,45 @@ The table presents the numerical error for different values of the delay paramet
 
 Case 1: q = 0.9
 
-m| N| Error
-2| 25| 2.12e-4
-2| 45| 6.46e-5
-2| 65| 3.08e-5
-2| 75| 2.31e-5
-2| 100| 1.26e-5
-2| 250| 2.04e-6
+| m | N   | Error   |
+|---|-----|---------|
+| 2 | 25  | 2.12e-4 |
+| 2 | 45  | 6.46e-5 |
+| 2 | 65  | 3.08e-5 |
+| 2 | 75  | 2.31e-5 |
+| 2 | 100 | 1.26e-5 |
+| 2 | 250 | 2.04e-6 |
 
 ---
 
 Case 2: q = 0.8
 
-m| N| Error
-2| 10| 1.12e-3
-2| 30| 1.37e-4
-2| 40| 7.77e-5
-2| 60| 3.49e-5
-2| 120| 8.83e-6
-2| 200| 3.19e-6
+| m | N   | Error   |
+|---|-----|---------|
+| 2 | 10  | 1.12e-3 |
+| 2 | 30  | 1.37e-4 |
+| 2 | 40  | 7.77e-5 |
+| 2 | 60  | 3.49e-5 |
+| 2 | 120 | 8.83e-6 |
+| 2 | 200 | 3.19e-6 |
 
 ---
 
 Case 3: q = 0.7
 
-m| N| Error
-2| 10| 1.17e-3
-2| 30| 1.38e-4
-2| 40| 7.85e-5
-2| 60| 3.52e-5
-2| 120| 8.86e-6
-2| 200| 3.20e-6
+| m | N   | Error   |
+|---|-----|---------|
+| 2 | 10  | 1.17e-3 |
+| 2 | 30  | 1.38e-4 |
+| 2 | 40  | 7.85e-5 |
+| 2 | 60  | 3.52e-5 |
+| 2 | 120 | 8.86e-6 |
+| 2 | 200 | 3.20e-6 |
 
 ---
 
 Observation:
-The results demonstrate consistent convergence across all tested delay parameters. As N increases, the numerical error decreases significantly, confirming the stability and accuracy of the proposed method. The method remains robust for both moderate and relatively large delay values.
+The results demonstrate consistent and stable convergence across all tested delay parameters. As the number of grid points N increases, the numerical error decreases significantly, indicating the effectiveness of the proposed method. Moreover, the method maintains high accuracy even for relatively large delay values, confirming its robustness and reliability in handling delay-dependent problems.
 
 ---
 
