@@ -219,8 +219,8 @@ Overall, the method provides a reliable and effective framework, with strong per
 
 ## 📂 Repository Structure
 
-- `src/` — Mathematica notebooks and implementation files
 - `figures/` — generated convergence plots
+- `src/` — Mathematica notebooks and implementation files
 - `README.md` — project overview, methodology, and numerical results
 
 ---
