@@ -203,7 +203,7 @@ This work is closely related to:
 - Stability and convergence analysis in iterative algorithms  
 - Computational methods for data-driven modeling  
 
-This project reflects my transition from mathematical modeling to computational and algorithmic problem-solving, aligning with modern AI methodologies.
+The computational structure of this work is relevant to optimization, dynamical systems, and numerical learning frameworks used in AI-related modeling.
 
 ---
 
