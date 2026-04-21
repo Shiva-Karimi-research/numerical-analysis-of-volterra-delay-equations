@@ -1,7 +1,18 @@
 # Numerical Analysis of Delay Differential Equations with Applications in Computational Modeling and AI
+
 ## Convergence and Error Analysis using Collocation-Based Methods
 
-This work is particularly relevant to AI and machine learning, where delay differential equations and dynamical systems play a key role in modeling temporal dependencies, stability of learning algorithms, and continuous-time representations in neural networks.
+<p align="center">
+  <img src="figures/convergence_cosh.png" width="600">
+</p>
+
+This repository presents a collocation-based numerical framework for solving Volterra delay differential equations, with a focus on convergence analysis, error behavior, and computational implementation in Wolfram Mathematica.
+
+**Highlights**
+- Convergence and error analysis for benchmark problems
+- Log-log numerical plots with reference slopes
+- Reproducible Mathematica implementation
+- Potential applications in AI, dynamical systems, and time-delay modeling
 
 ---
 
@@ -89,7 +100,7 @@ The table reports the numerical error for different values of the delay paramete
 
 ---
 
-### Convergence Analysis for y(t) = sin(t)
+### 📈 Convergence Analysis (y(t) = sin(t))
 
 <p align="center">
   <img src="figures/convergence_plot1.png" width="600">
@@ -101,7 +112,7 @@ Figure 1: Error convergence behavior for different delay parameters (q = 0.5, 1/
 
 ---
 
-**Observation:**  
+### 🔍 Observation  
 The results reveal a clear distinction in convergence behavior across different delay parameters. For q = 0.5, the numerical error decreases steadily as the grid size increases, showing a strong convergence trend that closely follows the reference slope, indicating the expected order of accuracy.
 
 In contrast, for smaller values of q (q = 1/3 and q = 1/4), the error remains relatively constant and does not exhibit significant decay with increasing grid resolution. This suggests that the numerical scheme becomes less effective for smaller delay parameters, potentially due to increased stiffness or reduced smoothness in the solution.
@@ -152,7 +163,7 @@ The table presents the numerical error for different values of the delay paramet
 
 ---
 
-### Convergence Analysis for y(t) = cosh(t)
+### 📈 Convergence Analysis (y(t) = cosh(t))
 
 <p align="center">
   <img src="figures/convergence_plot2.png" width="600">
@@ -206,11 +217,24 @@ Overall, the method provides a reliable and effective framework, with strong per
 
 ---
 
-## 📁 Code
+## 📂 Repository Structure
 
-The Mathematica implementation of the proposed numerical methods is available in the following files:
+- `src/` — Mathematica notebooks and implementation files
+- `figures/` — generated convergence plots
+- `README.md` — project overview, methodology, and numerical results
 
-- [sin solution notebook](src/volterra_delay_equation_sin_solution.nb)  
-- [cosh solution notebook](src/volterra_delay_equation_cosh_solution.nb)  
+---
 
-These notebooks provide a full implementation of the proposed numerical scheme, including discretization, delay handling, and error analysis. The code is structured for reproducibility and can be extended to more general classes of delay differential equations.
+## 💻 Code
+
+The Mathematica implementation of the proposed numerical schemes is available in:
+
+- [Sin solution notebook](src/volterra_delay_equation_sin_solution.nb)
+- [Cosh solution notebook](src/volterra_delay_equation_cosh_solution.nb)
+
+These notebooks include:
+- construction of the numerical scheme,
+- delay handling,
+- error computation,
+- convergence analysis,
+- generation of the reported plots.
