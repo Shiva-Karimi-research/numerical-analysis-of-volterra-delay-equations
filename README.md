@@ -1,7 +1,7 @@
-# Numerical Analysis of Volterra Delay Differential Equations  
-### Convergence and Error Study Using Collocation-Based Methods
+# Numerical Analysis of Delay Differential Equations with Applications in Computational Modeling and AI
+## Convergence and Error Analysis using Collocation-Based Methods
 
-This project presents a collocation-based numerical framework for solving Volterra delay differential equations, with a focus on convergence analysis and error behavior under varying delay parameters.
+This work is particularly relevant to AI and machine learning, where delay differential equations and dynamical systems play a key role in modeling temporal dependencies, stability of learning algorithms, and continuous-time representations in neural networks.
 
 ---
 
