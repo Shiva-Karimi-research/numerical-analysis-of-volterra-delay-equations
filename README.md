@@ -103,7 +103,7 @@ The table reports the numerical error for different values of the delay paramete
 ### 📈 Convergence Analysis (y(t) = sin(t))
 
 <p align="center">
-  <img src="figures/convergence_plot1.png" width="600">
+  <img src="figures/convergence_sin.png" width="600">
 </p>
 
 <p align="center"><em>
@@ -166,7 +166,7 @@ The table presents the numerical error for different values of the delay paramet
 ### 📈 Convergence Analysis (y(t) = cosh(t))
 
 <p align="center">
-  <img src="figures/convergence_plot2.png" width="600">
+  <img src="figures/convergence_cosh.png" width="600">
 </p>
 
 <p align="center"><em>
