@@ -89,10 +89,25 @@ The table reports the numerical error for different values of the delay paramete
 
 ---
 
-**Observation:**  
-The method exhibits clear convergence for q = 0.5, where the error decreases significantly as N increases. For smaller values of q, the convergence becomes slower, indicating the increasing impact of delay on numerical accuracy.
+### Convergence Analysis for y(t) = sin(t)
+
+<p align="center">
+  <img src="figures/convergence_plot1.png" width="600">
+</p>
+
+<p align="center"><em>
+Figure 1: Error convergence behavior for different delay parameters (q = 0.5, 1/3, 1/4) in a log-log scale. The reference line indicates the expected convergence rate.
+</em></p>
 
 ---
+
+**Observation:**  
+The results reveal a clear distinction in convergence behavior across different delay parameters. For q = 0.5, the numerical error decreases steadily as the grid size increases, showing a strong convergence trend that closely follows the reference slope, indicating the expected order of accuracy.
+
+In contrast, for smaller values of q (q = 1/3 and q = 1/4), the error remains relatively constant and does not exhibit significant decay with increasing grid resolution. This suggests that the numerical scheme becomes less effective for smaller delay parameters, potentially due to increased stiffness or reduced smoothness in the solution.
+
+Overall, the method demonstrates stable and accurate convergence primarily for moderate delay values, while its performance degrades for smaller q, highlighting a limitation of the approach.
+
 
 ### Example 2: Numerical Results for y(t) = cosh(t)
 
@@ -137,8 +152,25 @@ The table presents the numerical error for different values of the delay paramet
 
 ---
 
-**Observation:**  
-The results demonstrate consistent and stable convergence across all tested delay parameters. As the number of grid points N increases, the numerical error decreases significantly, indicating the effectiveness of the proposed method. Moreover, the method maintains high accuracy even for relatively large delay values, confirming its robustness and reliability in handling delay-dependent problems.
+### Convergence Analysis for y(t) = cosh(t)
+
+<p align="center">
+  <img src="figures/convergence_plot2.png" width="600">
+</p>
+
+<p align="center"><em>
+Figure 2: Log–log convergence of numerical error for different delay parameters (q = 0.9, 0.8, 0.7). All curves align closely with the reference slope, indicating consistent second-order convergence.
+</em></p>
+
+---
+
+**Observation:**
+
+The results demonstrate a highly consistent convergence behavior across all tested delay parameters. As the grid size increases, the numerical error decreases uniformly for q = 0.9, 0.8, and 0.7, with all curves closely overlapping.
+
+The alignment of the numerical results with the reference slope confirms that the method achieves the expected second-order accuracy. Unlike the previous example, the convergence rate here is stable and largely independent of the delay parameter.
+
+This indicates that the proposed numerical scheme is robust and reliable for this class of problems, maintaining both stability and accuracy across different delay values.
 
 ---
 
@@ -161,6 +193,16 @@ This work is closely related to:
 - Computational methods for data-driven modeling  
 
 This project reflects my transition from mathematical modeling to computational and algorithmic problem-solving, aligning with modern AI methodologies.
+
+---
+
+## 📌 Conclusion
+
+The proposed collocation-based method demonstrates stable and accurate convergence for solving Volterra delay differential equations.
+
+The results confirm second-order accuracy for smooth cases, while highlighting sensitivity to smaller delay parameters, where convergence becomes less pronounced.
+
+Overall, the method provides a reliable and effective framework, with strong performance in stable regimes and clearly identifiable limitations in more challenging scenarios.
 
 ---
 
