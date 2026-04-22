@@ -1,6 +1,7 @@
 # Numerical Analysis of Delay Differential Equations with Applications in Computational Modeling and AI
 
 ## Convergence and Error Analysis using Collocation-Based Methods
+This project reflects my approach to structured computational modeling, with a focus on stability, convergence, and scalable numerical methods relevant to modern learning systems.
 
 <p align="center">
   <img src="figures/convergence_cosh.png" width="600">
@@ -12,8 +13,8 @@ This repository presents a collocation-based numerical framework for solving Vol
 - Convergence and error analysis for benchmark problems
 - Log-log numerical plots with reference slopes
 - Reproducible Mathematica implementation
-- Potential applications in AI, dynamical systems, and time-delay modeling
-
+- Potential relevance to optimization and learning-based dynamical modeling
+  
 ---
 
 ## 📌 Overview
