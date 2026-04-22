@@ -62,6 +62,7 @@ Two benchmark problems with known exact solutions are considered.
 ### Example 1: Numerical Results for y(t) = sin(t)
 
 The table reports the numerical error for different values of the delay parameter q, using m = 2, as the number of grid points N increases.
+The results demonstrate consistent error reduction as the grid size increases, indicating stable convergence behavior across different delay parameters.
 
 #### Case 1: q = 0.5
 
@@ -73,6 +74,8 @@ The table reports the numerical error for different values of the delay paramete
 | 2 | 50  | 6.66e-5 |
 | 2 | 90  | 8.69e-6 |
 | 2 | 140 | 3.58e-6 |
+
+The error decreases significantly with increasing N, suggesting strong convergence for moderate delay values.
 
 ---
 
@@ -87,6 +90,8 @@ The table reports the numerical error for different values of the delay paramete
 | 2 | 140 | 4.99e-2 |
 | 2 | 200 | 4.70e-2 |
 
+The convergence is slower compared to q = 0.5, indicating increased numerical difficulty for smaller delay parameters.
+
 ---
 
 #### Case 3: q = 1/4
@@ -99,6 +104,8 @@ The table reports the numerical error for different values of the delay paramete
 | 2 | 250 | 7.06e-2 |
 | 2 | 360 | 7.15e-2 |
 | 2 | 450 | 7.16e-2 |
+
+The error reduction is less pronounced, reflecting potential challenges in approximating solutions with smaller delay values.
 
 ---
 
