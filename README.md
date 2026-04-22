@@ -173,7 +173,7 @@ The convergence behavior remains consistent, with a clear reduction in error as 
 | 2 | 120 | 8.86e-6 |
 | 2 | 200 | 3.20e-6 |
 
-The method continues to exhibit stable convergence, although slight variations in error reduction indicate increased sensitivity compared to larger delay values.
+**The method continues to exhibit stable convergence, although slight variations in error reduction indicate increased sensitivity compared to larger delay values.**
 
 ---
 
@@ -184,9 +184,7 @@ The method continues to exhibit stable convergence, although slight variations i
 </p>
 
 <p align="center"><em>
-Figure 2: Log–log convergence of numerical error for different delay parameters (q = 0.9, 0.8, 0.7). All curves align closely with the reference slope, indicating consistent second-order convergence.
-</em></p>
-
+Figure 2: Log–log convergence of numerical error for different delay parameters (q = 0.9, 0.8, 0.7). All curves align closely with the reference slope, confirming consistent second-order convergence behavior.
 ---
 
 **Observation:**
