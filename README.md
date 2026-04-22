@@ -90,8 +90,7 @@ The error decreases significantly with increasing N, suggesting strong convergen
 | 2 | 140 | 4.99e-2 |
 | 2 | 200 | 4.70e-2 |
 
-The convergence is slower compared to q = 0.5, indicating increased numerical difficulty for smaller delay parameters.
-
+The convergence rate is slower compared to q = 0.5, indicating increased numerical difficulty for smaller delay parameter.
 ---
 
 #### Case 3: q = 1/4
@@ -122,16 +121,17 @@ Figure 1: Error convergence behavior for different delay parameters (q = 0.5, 1/
 ---
 
 ### 🔍 Observation  
-The results reveal a clear distinction in convergence behavior across different delay parameters. For q = 0.5, the numerical error decreases steadily as the grid size increases, showing a strong convergence trend that closely follows the reference slope, indicating the expected order of accuracy.
+The results reveal distinct convergence behavior across different delay parameters. For moderate delay values (q = 0.5), the numerical error decreases steadily as the grid size increases, closely following the expected convergence trend.
 
-In contrast, for smaller values of q (q = 1/3 and q = 1/4), the error remains relatively constant and does not exhibit significant decay with increasing grid resolution. This suggests that the numerical scheme becomes less effective for smaller delay parameters, potentially due to increased stiffness or reduced smoothness in the solution.
+In contrast, for smaller delay parameters (q = 1/3 and q = 1/4), the error shows limited reduction with increasing grid resolution, indicating slower convergence and increased numerical difficulty.
 
-Overall, the method demonstrates stable and accurate convergence primarily for moderate delay values, while its performance degrades for smaller q, highlighting a limitation of the approach.
+Overall, the method demonstrates stable and accurate convergence for moderate delay values, while its performance degrades for smaller delays, highlighting a limitation of the approach.
 
 
 ### Example 2: Numerical Results for y(t) = cosh(t)
 
 The table presents the numerical error for different values of the delay parameter q, using m = 2, as the number of grid points N increases.
+**The results demonstrate consistent error reduction as the grid size increases, confirming stable convergence behavior across different delay parameters.**
 
 #### Case 1: q = 0.9
 
@@ -144,6 +144,7 @@ The table presents the numerical error for different values of the delay paramet
 | 2 | 100 | 1.26e-5 |
 | 2 | 250 | 2.04e-6 |
 
+The error decreases steadily as N increases, indicating strong and stable convergence for large delay values.
 ---
 
 #### Case 2: q = 0.8
@@ -157,6 +158,7 @@ The table presents the numerical error for different values of the delay paramet
 | 2 | 120 | 8.83e-6 |
 | 2 | 200 | 3.19e-6 |
 
+The convergence behavior remains consistent, with a clear reduction in error as the grid size increases, suggesting reliable numerical performance.
 ---
 
 #### Case 3: q = 0.7
@@ -169,6 +171,8 @@ The table presents the numerical error for different values of the delay paramet
 | 2 | 60  | 3.52e-5 |
 | 2 | 120 | 8.86e-6 |
 | 2 | 200 | 3.20e-6 |
+
+The method continues to exhibit stable convergence, although slight variations in error reduction indicate increased sensitivity compared to larger delay values.
 
 ---
 
