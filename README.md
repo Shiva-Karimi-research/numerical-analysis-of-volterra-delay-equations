@@ -7,7 +7,7 @@ This project reflects my approach to structured computational modeling, with a f
   <img src="figures/convergence_cosh.png" width="600">
 </p>
 
-This repository presents a collocation-based numerical framework for solving Volterra delay differential equations, with a focus on convergence analysis, error behavior, and computational implementation in Wolfram Mathematica.
+This repository presents a structured collocation-based numerical framework for solving Volterra delay differential equations, with an emphasis on convergence, stability, and scalable computational modeling.
 
 **Highlights**
 - Convergence and error analysis for benchmark problems
