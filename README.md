@@ -28,7 +28,8 @@ This project develops and analyzes numerical methods for solving Volterra delay 
 - Constructed a collocation-based numerical scheme using quadrature nodes and weights  
 - Designed interpolation basis functions for solution approximation  
 - Incorporated delay terms using fractional indexing and decomposition techniques  
-- Implemented iterative solvers for nonlinear systems at each discretized time step  
+- Implemented iterative solvers for nonlinear systems at each discretized time step
+- While the implementation is developed in Wolfram Mathematica, the underlying methodology is general and can be extended to Python-based machine learning frameworks.
 
 ---
 
